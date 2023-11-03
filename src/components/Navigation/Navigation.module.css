@@ -1,0 +1,66 @@
+.headerContainer {
+  background-color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.headerItem {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.headerNav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem; /* Расстояние между ссылками */
+}
+
+.headerNav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.headerNav a:hover,
+.headerNav a:focus {
+  background-color: #555;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+  border-radius: 4px;
+}
+
+.contactsItems {
+  display: flex;
+  align-items: center;
+}
+
+.contactsButton {
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.contactsButton:hover,
+.contactsButton:focus {
+  background-color: #d14225;
+}
+
+.contactsInfo {
+  font-weight: 500;
+  margin-right: 20px;
+}

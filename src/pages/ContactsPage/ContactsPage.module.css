@@ -1,0 +1,107 @@
+.contactContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://cdn.pixabay.com/photo/2016/01/06/22/50/christmas-1125147_640.jpg')
+      center/cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.contactForm {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 84px;
+  max-width: 400px;
+  width: 30%;
+  padding: 20px;
+}
+
+.contactForm h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.contactForm label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.contactForm label span {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.contactForm input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addButton {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.addButton:hover {
+  background-color: #45a049;
+}
+
+.contactsItem {
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsList {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contactsName {
+  font-weight: 600;
+  margin: 0;
+}
+
+.deleteButton {
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: #d14225;
+}
